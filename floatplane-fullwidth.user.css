@@ -15,8 +15,10 @@
     /* Floatplane video player tweak */
     /* Author: aquatix */
     /* Shoutout to whole Floatplane team for a great paid early access content! */
+    /* !important flag is implemented due to _ngcontent attribues which are added during compilation of the website: [_ngcontent-c14] */
+    /* The !important flag allows to apply the CSS rule over the CSS rules given with selectors with attributes attached to them */
 
     .player-container {
-        max-width: none;
+        max-width: none !important;
     }
 }
