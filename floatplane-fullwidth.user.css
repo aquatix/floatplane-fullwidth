@@ -1,0 +1,22 @@
+/* ==UserStyle==
+@name        Floatplane Fullwidth tweak
+@version     1.0.0
+@namespace   aquatix
+@author      aquatix
+@description UserCSS tweaking the video width for the Floatplane.com subscription service for browser theming extensions like Stylus or Stylish 
+@homepageURL https://github.com/aquatix/floatplane-fullwidth
+@supportURL  https://github.com/aquatix/floatplane-fullwidth/issues
+@updateURL   https://raw.githubusercontent.com/aquatix/floatplane-fullwidth/master/floatplane-fullwidth.user.css
+@license     The Unlicense
+@preprocessor uso
+==/UserStyle== */
+
+@-moz-document domain("floatplane.com") {
+    /* Floatplane video player tweak */
+    /* Author: aquatix */
+    /* Shoutout to whole Floatplane team for a great paid early access content! */
+
+    .player-container {
+        max-width: none;
+    }
+}
